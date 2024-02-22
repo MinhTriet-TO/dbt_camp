@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dbtcamp"
+version = "0.1.0"
+description = "this project is used to familiarize with dbt and all the cool things around it"
+authors = ["TO Minh Triet <mtto@meilleursagents.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

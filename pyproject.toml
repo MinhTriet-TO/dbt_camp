@@ -7,7 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
+dbt-core = "^1.7.4"
+dbt-postgres = "^1.7.4"
 
 [build-system]
 requires = ["poetry-core"]
